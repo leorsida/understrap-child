@@ -1,0 +1,20 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
+
+// scss-docs-start theme-color-variables
+
+@import "../fonts/fonts.css";
+
+$white:         #ffffff;
+
+$primary:       #3399FF !default;
+$secondary:     #00CC66 !default;
+$success:       #808080 !default;
+$info:          #fc3204 !default;
+$warning:       #ffc974 !default;
+$danger:        #fe0062 !default;
+$light:         #fdf9f8 !default;
+$dark:          #333333 !default;
+
+$font-family-sans-serif: 'Signika Negative', sans-serif !default;
